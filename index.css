@@ -1,0 +1,84 @@
+:root {
+    --cor-vermelho-projeto: #e30613;
+    --cor-cinza-projeto: #e6e6e6;
+    --cor-preta-projeto: #212529;
+}
+
+body{
+    color:var(--cor-cinza-projeto);
+    background-color:var(--cor-preta-projeto);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{  
+    background-color:blue;  
+    display: flex;
+    justify-content: space-between;    
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+} 
+a {
+    color: white;
+    text-decoration: none;
+}
+header{
+    background-color: white;
+}
+ header img {    
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.center{background-color: #e30613;
+    text-align: center;
+}
+#center2{
+    display: flex;
+    justify-content: center;
+}
+#center2 img{
+    width: 550px;
+    height: 550px;
+    border-radius: 20%;
+    border: 5px solid white;
+} 
+h1 {
+    color: aqua;
+}
+/* inicio do implante */
+table{
+    display: flex;
+    justify-content: center;
+}
+table tr {
+    margin: 20px;
+    text-align: center;
+}
+table td{
+    margin-top: 10px;
+}
+/*  Fim implante */
+footer img {
+    width: 40px;
+    height: 40px;
+}
+footer{
+    background-color: var(--cor-cinza-projeto);
+    display: flex;
+    justify-content: center;
+}
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+footer p{
+    background-color: #212529;
+    margin-top: 2px;
+}
+.container {
+    background-color:none;
+    padding: 0px 50px;
+}
+    
